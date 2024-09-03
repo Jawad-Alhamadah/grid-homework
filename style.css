@@ -515,3 +515,29 @@ width: 75%;
     color: rgb(169, 169, 169);
     font-size: 0.8em;
 }
+
+
+@media only screen and (max-width: 700px) {
+
+   
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr  ;
+   
+    
+    
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr  ;
+
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr  ;
+}
+  }
