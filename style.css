@@ -43,6 +43,7 @@ body{
 
 .side-img{
    grid-row: span 2;
+   background-color: #8f76bc;
 }
 
 
@@ -52,10 +53,8 @@ body{
 }
 .grid-2 >div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
     border: 1px solid black;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .grid-3 >div{
@@ -115,7 +114,7 @@ width: 75%;
     /* grid-template-rows: 1fr  ; */
     justify-items: center;
     align-items: center;
-    
+    align-items: center;
     text-align: center;
 }
 
@@ -123,6 +122,8 @@ width: 75%;
   display: grid;
   width: 60%;
   font-family: Arvo, sans-serif;;
+  
+ 
 }
 
 .g1-content-container-2 h3{
@@ -147,3 +148,151 @@ width: 75%;
  
 
 }
+
+
+.g2-content-container{
+    background-color: #f05638;
+    display: grid;
+
+ align-items: center;
+ justify-content: center;
+
+}
+.g2-content-container >div{
+    height: 80%;
+}
+
+
+.g2-content-container img{
+  width: 100%;
+
+}
+
+.g2-content-container img{
+    width: 80%;
+  
+  }
+
+  .g2-content-container h3{
+   text-align: center;
+   color: white;
+   font-size: 1.5em;
+   font-family: Arvo, sans-serif;;
+  }
+
+  .g2-content-container h4{
+    text-align: center;
+    color: rgba(229, 229, 14, 0.876);
+   
+   }
+
+
+
+
+
+   .keyboard-div{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+   }
+
+   .keyboard-div h3{
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+
+   .keyboard-div div{
+    display: grid;
+    justify-items: center;
+   }
+
+   .g2-content-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: end;
+  
+   }
+
+   
+   .g2-content-container-2 div{
+    display: grid;
+    
+  
+   }
+   .g2-content-container-2 p{
+   color: #9fa3a7;
+   line-height: 1.4em;
+   width: 75%;
+   margin-left: 10px;
+    
+  
+   }
+
+   .g2-content-container-2 h4{
+    display: grid;
+    font-size: 1.3em;
+    width: 55%;
+    margin-left: 10px;
+     justify-self: center;
+   font-weight: 400;
+    }
+
+
+ .download-title{
+    align-self: normal;
+    margin-top: 10px;
+    color: #18b1d3;
+    margin-left: 10px;
+    font-weight: 600;
+ }
+
+
+ .side-img-grid{
+    display: grid;
+    
+    grid-template-rows: 1.2fr 1fr;
+    justify-items: center;
+   
+ }
+
+ .floppy-grid{
+    align-self: self-end;
+    
+   height: 70%;
+ }
+
+ .purple-circle{
+    background-color: #8166b0;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+ }
+
+ .purple-circle img{
+
+    width: 60%;
+ }
+
+ .icloud-grid h3{
+    text-align: center;
+ }
+
+ .icloud-button{
+
+    background-color: rgb(226, 211, 1);
+    border-radius: 15px;
+ }
+
+
+ .icloud-grid * {
+    display: grid;
+    justify-items: center;
+    margin-top: 10px;
+ }
