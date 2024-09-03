@@ -103,8 +103,47 @@ width: 75%;
 
 .g1-title-grid h3{
     font-family: Arvo, sans-serif;
-    width: 75%;
+    width: 100%;
     font-weight: 300;
     font-size: 1.5em;
     line-height: 1.3em;
+}
+
+
+.g1-content-container-2{
+    background-color: #f7f8f9;
+    /* grid-template-rows: 1fr  ; */
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.g1-content-container-2 div{
+  display: grid;
+  width: 60%;
+  font-family: Arvo, sans-serif;;
+}
+
+.g1-content-container-2 h3{
+    font-size: 0.8em; color: #9fa3a7;
+    font-weight: 800;
+
+}
+
+.g1-content-container-2 a{
+    color: #18b1d3;
+ 
+
+}
+
+
+.g1-content-container-2 h2{
+ font-size: 3em;
+ width: 100%;
+    
+ font-weight: 300;
+
+ 
+
 }
