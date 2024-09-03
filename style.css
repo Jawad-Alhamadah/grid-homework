@@ -48,12 +48,6 @@ body{
 
 .grid-1 >div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    justify-items: center;
-    border: 1px solid black;
-    
-    
     
 }
 .grid-2 >div{
@@ -66,9 +60,32 @@ body{
 
 .grid-3 >div{
     display: grid;
- 
-    justify-items: center;
+     justify-items: center;
     border: 1px solid black;
 
     
+}
+
+.g1-content-container img{
+width: 77%;    
+
+}
+
+.g1-content-container{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns:  1.3fr 1fr;
+}
+
+.g1-content-container >div{
+    display: grid;
+ 
+}
+
+.g1-title-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
